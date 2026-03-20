@@ -155,4 +155,21 @@
       command = "setlocal commentstring=--\\ %s";
     }
   ];
+
+  # flutter-tools.nvim
+  # reference: https://github.com/nvim-flutter/flutter-tools.nvim
+  plugins.flutter-tools = {
+    enable = true;
+    settings = {
+      flutter_path = "flutter";
+      lsp = {
+        color = {
+          enabled = true;
+        };
+      };
+      widget_guides = {
+        enabled = true;
+      };
+    };
+  };
 }

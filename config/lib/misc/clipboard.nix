@@ -1,0 +1,3 @@
+{
+  opts.clipboard = "unmaedplus";
+}
