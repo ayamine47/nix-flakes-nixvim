@@ -1,3 +1,3 @@
 {
-  opts.clipboard = "unmaedplus";
+  opts.clipboard = "unnamedplus";
 }
