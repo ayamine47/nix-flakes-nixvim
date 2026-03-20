@@ -27,7 +27,6 @@
   #   elmls             : Elm            (reference: https://github.com/elm-language-server/elm-language-server)
   plugins.lsp = {
     enable = true;
-    inlayHints = true;
     servers = {
       # Nix language server
       nil_ls.enable = true;
