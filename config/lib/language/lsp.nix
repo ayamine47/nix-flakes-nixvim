@@ -164,11 +164,6 @@
     settings = {
       flutter_path = "${pkgs.flutter}/bin/flutter";
       lsp = {
-        cmd = [
-          "${pkgs.flutter}/bin/flutter"
-          "language-server"
-          "protocol=lsp"
-        ];
         color = {
           enabled = true;
         };
