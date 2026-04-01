@@ -41,6 +41,9 @@
         timeout_ms = 500;
       };
       formatters_by_ft = {
+        # astro formatter
+        astro = [ "prettier" ];
+
         # nix formatter
         nix = [ "nixfmt" ];
         # markdown formatter

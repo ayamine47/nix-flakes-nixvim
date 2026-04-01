@@ -41,6 +41,10 @@
           "zsh"
         ];
       };
+
+      # Astro language server
+      astro.enable = true;
+
       # TypeScript / JavaScript language server
       ts_ls.enable = true;
       # R language server
@@ -62,10 +66,23 @@
       # clangd.enable = true;
       # Python language server
       # basedpyright.enable = true;
+
       # HTML language server
       html.enable = true;
+
       # CSS language server
       cssls.enable = true;
+
+      # Tailwind CSS language server
+      tailwindcss = {
+        enable = true;
+        filetypes = [
+          "astro"
+          "javascript"
+          "typescript"
+        ];
+      };
+
       # Java language server
       # jdtls.enable = true;
       # Julia language server
